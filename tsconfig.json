@@ -2,6 +2,16 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "amb-video-lib": [
+        "dist/amb-video-lib/amb-video-lib",
+        "dist/amb-video-lib"
+      ],
+      "ngx-amb-video-recorder": [
+        "dist/ngx-amb-video-recorder/ngx-amb-video-recorder",
+        "dist/ngx-amb-video-recorder"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
